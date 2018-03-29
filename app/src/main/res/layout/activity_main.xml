@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B4B7DD"
+        android:orientation="vertical"
+        tools:context="com.salmasamy.trythings.MainActivity">
+
+
+        <TextView
+            android:id="@+id/lala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:padding="8dp"
+            android:paddingBottom="20dp"
+            android:text="Hi, one item of LaLa is worth 5$, please choose the quantatity you want:"
+            android:textColor="#0E0C42"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Quantity"
+            android:textColor="#900C3F"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:id="@+id/qNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/plus"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="0"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/minus"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="8dp"
+                android:text="-" />
+
+            <CheckBox
+                android:id="@+id/weee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add Weee with 1$? \" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Order" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="numbersActivity"
+            android:padding="8dp"
+            android:text="Numbers Activity" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="fadeAway"
+            android:padding="8dp"
+            android:text="Fade Away" />
+
+
+        <LinearLayout
+            android:id="@+id/bombom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Price"
+                    android:textColor="#900C3F"
+                    android:textSize="20dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/pNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="$0.00"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/thanks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:padding="8dp"
+                android:text="Thanks for using my silly app, hope you will use more useful apps in the future"
+                android:textColor="#0E0C42"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Now lets try some functioalities:"
+                android:textColor="#900C3F"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="casual"
+                android:onClick="email"
+                android:padding="8dp"
+                android:text="E-mail order" />
+
+            <Button
+                android:id="@+id/Alarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="casual"
+                android:onClick="alarm"
+                android:padding="8dp"
+                android:text="Set Alarm to 7.30am" />
+
+            <Button
+                android:id="@+id/gmap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="casual"
+                android:onClick="gmap"
+                android:padding="8dp"
+                android:text="GoogleMap Azhar Park" />
+
+            <Button
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="casual"
+                android:onClick="photo"
+                android:padding="8dp"
+                android:text="Take a photo" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:padding="8dp"
+                android:text="Okay, that's enough, I get it now, intents are amazing and can access any resource on the phone."
+                android:textColor="#0E0C42"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Reset" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
