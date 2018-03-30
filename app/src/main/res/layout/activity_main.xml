@@ -79,12 +79,6 @@
             android:padding="8dp"
             android:text="Order" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="numbersActivity"
-            android:padding="8dp"
-            android:text="Numbers Activity" />
 
         <Button
             android:layout_width="wrap_content"
