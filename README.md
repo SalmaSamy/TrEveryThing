@@ -1,2 +1,2 @@
 # TrEveryThing
-Used for Android Testing
+Used while learning Android for trying and testing
