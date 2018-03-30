@@ -136,10 +136,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void numbersActivity(View view) {
-        Intent intent = new Intent(this,NumbersActivity.class);
-        startActivity(intent);
-    }
 
     public void fadeAway(View view) {
         Intent intent = new Intent(this,FadeAway.class);
